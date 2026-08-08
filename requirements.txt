@@ -8,3 +8,4 @@ seaborn
 python-dotenv
 google-generativeai
 pytest
+APScheduler
