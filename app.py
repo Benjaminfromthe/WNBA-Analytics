@@ -3,7 +3,7 @@ import threading
 import pandas as pd
 import streamlit as st
 from sqlalchemy import create_engine
-from groq import Groq  # Using Groq SDK
+from groq import Groq
 
 # ==========================================
 # 1. BACKGROUND SCHEDULER INITIALIZATION
@@ -34,20 +34,20 @@ start_background_scheduler()
 # 2. STREAMLIT UI CONFIGURATION
 # ==========================================
 st.set_page_config(
-    page_title="WNBA Analytics AI", 
+    page_title="WNBA Analytics AI Platform", 
     page_icon="🏀", 
     layout="wide"
 )
 
-st.title("🏀 WNBA Analytics & AI Insights")
-st.caption("Live Cloud ETL Pipeline Monitoring & AI Analytics Assistant")
+st.title("🏀 WNBA Analytics & AI Insights Platform")
+st.caption("Automated Cloud ETL Pipeline, Real-Time Supabase Data Sync & Conversational AI Assistant")
 
 st.divider()
 
 # ==========================================
-# 3. LIVE DATABASE PREVIEW SECTION
+# 3. LIVE DATABASE PREVIEW & METRICS
 # ==========================================
-st.subheader("📊 Live ETL Data Preview")
+st.subheader("📊 Live ETL Data & System Metrics")
 
 DB_USER = os.getenv("DB_USER")
 DB_PASSWORD = os.getenv("DB_PASSWORD")
@@ -61,11 +61,22 @@ if DB_HOST and DB_USER and DB_PASSWORD:
         db_url = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
         engine = create_engine(db_url)
         
-        # Safely fetch recent 5 rows from raw staging table
-        df = pd.read_sql("SELECT * FROM wnba_games_raw LIMIT 5", engine)
+        # Pull total row count and recent records
+        df_count = pd.read_sql("SELECT COUNT(*) as total FROM wnba_games_raw", engine)
+        df_preview = pd.read_sql("SELECT * FROM wnba_games_raw LIMIT 5", engine)
         
-        st.dataframe(df, use_container_width=True)
-        st.success("Connected to database successfully!")
+        total_rows = df_count["total"].iloc[0]
+
+        # Display Top Metrics
+        col1, col2, col3 = st.columns(3)
+        col1.metric("Database Status", "Connected 🟢")
+        col2.metric("Total Ingested Records", f"{total_rows:,}")
+        col3.metric("ETL Refresh Interval", "15 Mins")
+
+        st.markdown("#### **Staging Data Preview (`wnba_games_raw`)**")
+        st.dataframe(df_preview, use_container_width=True)
+        st.success("Connected to Supabase PostgreSQL database successfully!")
+
     except Exception as e:
         st.warning(f"Could not load live database preview: {e}")
 else:
@@ -74,7 +85,7 @@ else:
 st.divider()
 
 # ==========================================
-# 4. INTERACTIVE GROQ AI ASSISTANT SECTION
+# 4. INTERACTIVE GROQ AI ASSISTANT (WITH MEMORY)
 # ==========================================
 st.subheader("💬 Ask WNBA AI Assistant")
 
@@ -97,30 +108,37 @@ else:
                 st.markdown(msg["content"])
 
         # User chat input prompt box
-        if prompt := st.chat_input("Ask about recent WNBA player stats, ETL status, or insights..."):
+        if prompt := st.chat_input("Ask about recent WNBA player stats, ETL status, or predictions..."):
             # Display user message
             st.session_state.messages.append({"role": "user", "content": prompt})
             with st.chat_message("user"):
                 st.markdown(prompt)
 
-            # Query Groq model (Llama 3)
+            # Build conversational history payload for Groq
+            groq_payload = [
+                {
+                    "role": "system",
+                    "content": "You are a professional WNBA sports analytics expert and data engineer assistant. "
+                               "Maintain full conversational context and answer queries accurately, concisely, and clearly."
+                }
+            ]
+
+            # Append previous message memory
+            for m in st.session_state.messages:
+                groq_payload.append({
+                    "role": m["role"],
+                    "content": m["content"]
+                })
+
+            # Query Groq LLM (Llama 3.3 70B Versatile)
             try:
                 chat_completion = client.chat.completions.create(
-                    messages=[
-                        {
-                            "role": "system",
-                            "content": "You are a professional WNBA sports analytics expert. Answer queries concisely and clearly."
-                        },
-                        {
-                            "role": "user",
-                            "content": prompt,
-                        }
-                    ],
+                    messages=groq_payload,
                     model="llama-3.3-70b-versatile",
                 )
                 reply = chat_completion.choices[0].message.content
             except Exception as err:
-                reply = f"Error generating Groq AI response: {err}"
+                reply = f"Error generating AI response: {err}"
 
             # Display AI message
             with st.chat_message("assistant"):
