@@ -3,7 +3,7 @@ import threading
 import pandas as pd
 import streamlit as st
 from sqlalchemy import create_engine
-from google import genai
+import google.generativeai as genai  # Correct import for google-generativeai
 
 # ==========================================
 # 1. BACKGROUND SCHEDULER INITIALIZATION
@@ -78,7 +78,9 @@ api_key = os.getenv("GEMINI_API_KEY")
 if not api_key:
     st.error("Missing GEMINI_API_KEY environment variable. Please configure it in Railway.")
 else:
-    client = genai.Client(api_key=api_key)
+    # Configure Gemini client using google-generativeai syntax
+    genai.configure(api_key=api_key)
+    model = genai.GenerativeModel('gemini-1.5-flash')
 
     # Maintain chat history state
     if "messages" not in st.session_state:
@@ -98,9 +100,8 @@ else:
 
         # Generate Gemini response
         try:
-            response = client.models.generate_content(
-                model="gemini-2.5-flash",
-                contents=f"You are a WNBA sports analytics expert. Answer this query based on player data: {prompt}"
+            response = model.generate_content(
+                f"You are a WNBA sports analytics expert. Answer this query based on player data: {prompt}"
             )
             reply = response.text
         except Exception as err:
