@@ -1,0 +1,301 @@
+game_id,season,home_team,visitor_team,home_team_score,visitor_team_score,pts_total,point_diff,home_win,turnovers,field_goal_pct
+1,2023,Las Vegas Aces,New York Liberty,73,80,153,7,0,14,0.362
+2,2024,Las Vegas Aces,New York Liberty,82,76,158,6,1,13,0.35
+3,2024,Atlanta Dream,Connecticut Sun,62,82,144,20,0,19,0.545
+4,2023,Las Vegas Aces,New York Liberty,77,78,155,1,0,14,0.384
+5,2024,Minnesota Lynx,Connecticut Sun,80,77,157,3,1,11,0.398
+6,2024,New York Liberty,Minnesota Lynx,80,81,161,1,0,11,0.412
+7,2024,Connecticut Sun,Las Vegas Aces,87,79,166,8,1,21,0.389
+8,2023,Connecticut Sun,New York Liberty,100,86,186,14,1,19,0.471
+9,2024,New York Liberty,Dallas Wings,76,82,158,6,0,18,0.39
+10,2024,New York Liberty,Dallas Wings,83,82,165,1,1,14,0.52
+11,2024,Minnesota Lynx,Atlanta Dream,91,87,178,4,1,15,0.405
+12,2024,New York Liberty,Dallas Wings,89,84,173,5,1,14,0.504
+13,2024,Minnesota Lynx,New York Liberty,82,75,157,7,1,20,0.452
+14,2023,New York Liberty,Las Vegas Aces,70,79,149,9,0,14,0.408
+15,2024,Connecticut Sun,Las Vegas Aces,77,75,152,2,1,19,0.394
+16,2023,Minnesota Lynx,Las Vegas Aces,79,83,162,4,0,8,0.396
+17,2023,New York Liberty,Connecticut Sun,75,73,148,2,1,16,0.447
+18,2023,Dallas Wings,Atlanta Dream,83,61,144,22,1,11,0.423
+19,2023,Connecticut Sun,Atlanta Dream,66,77,143,11,0,15,0.357
+20,2023,Connecticut Sun,Atlanta Dream,85,75,160,10,1,21,0.379
+21,2024,Las Vegas Aces,Connecticut Sun,75,79,154,4,0,18,0.398
+22,2024,Las Vegas Aces,Connecticut Sun,91,74,165,17,1,8,0.38
+23,2023,Las Vegas Aces,New York Liberty,82,75,157,7,1,11,0.479
+24,2023,Atlanta Dream,New York Liberty,85,85,170,0,0,16,0.392
+25,2023,Las Vegas Aces,Minnesota Lynx,68,78,146,10,0,21,0.529
+26,2023,New York Liberty,Dallas Wings,92,71,163,21,1,11,0.527
+27,2024,Minnesota Lynx,New York Liberty,87,86,173,1,1,10,0.424
+28,2024,Minnesota Lynx,New York Liberty,83,68,151,15,1,10,0.48
+29,2024,Connecticut Sun,New York Liberty,91,71,162,20,1,15,0.52
+30,2024,New York Liberty,Minnesota Lynx,71,83,154,12,0,13,0.546
+31,2024,Dallas Wings,Las Vegas Aces,103,78,181,25,1,8,0.389
+32,2024,Las Vegas Aces,New York Liberty,73,81,154,8,0,21,0.541
+33,2023,New York Liberty,Atlanta Dream,81,83,164,2,0,10,0.546
+34,2023,New York Liberty,Atlanta Dream,74,73,147,1,1,17,0.537
+35,2023,Las Vegas Aces,Minnesota Lynx,87,69,156,18,1,9,0.401
+36,2024,Connecticut Sun,Dallas Wings,90,86,176,4,1,14,0.409
+37,2023,Minnesota Lynx,Dallas Wings,82,84,166,2,0,11,0.51
+38,2023,New York Liberty,Atlanta Dream,75,76,151,1,0,13,0.416
+39,2024,Las Vegas Aces,Connecticut Sun,78,86,164,8,0,12,0.454
+40,2023,New York Liberty,Connecticut Sun,101,92,193,9,1,15,0.495
+41,2023,Las Vegas Aces,Connecticut Sun,81,74,155,7,1,19,0.499
+42,2023,Connecticut Sun,Dallas Wings,86,84,170,2,1,8,0.385
+43,2023,Atlanta Dream,Connecticut Sun,89,88,177,1,1,8,0.541
+44,2024,Las Vegas Aces,New York Liberty,72,79,151,7,0,16,0.418
+45,2024,Atlanta Dream,New York Liberty,85,84,169,1,1,17,0.503
+46,2024,Atlanta Dream,Connecticut Sun,78,79,157,1,0,12,0.527
+47,2023,Las Vegas Aces,Atlanta Dream,107,78,185,29,1,11,0.473
+48,2024,Minnesota Lynx,Atlanta Dream,66,88,154,22,0,8,0.442
+49,2023,New York Liberty,Dallas Wings,84,73,157,11,1,17,0.414
+50,2024,Las Vegas Aces,Connecticut Sun,81,64,145,17,1,12,0.42
+51,2023,New York Liberty,Atlanta Dream,82,81,163,1,1,16,0.464
+52,2024,Dallas Wings,Minnesota Lynx,76,87,163,11,0,12,0.398
+53,2024,Dallas Wings,New York Liberty,82,85,167,3,0,16,0.414
+54,2024,New York Liberty,Minnesota Lynx,78,85,163,7,0,21,0.485
+55,2023,Las Vegas Aces,Atlanta Dream,67,74,141,7,0,11,0.485
+56,2023,New York Liberty,Atlanta Dream,81,70,151,11,1,21,0.46
+57,2023,New York Liberty,Dallas Wings,89,81,170,8,1,20,0.518
+58,2023,Connecticut Sun,Las Vegas Aces,86,84,170,2,1,20,0.367
+59,2023,Dallas Wings,Atlanta Dream,84,76,160,8,1,11,0.42
+60,2023,Minnesota Lynx,Atlanta Dream,88,76,164,12,1,21,0.449
+61,2023,Las Vegas Aces,Connecticut Sun,88,84,172,4,1,16,0.499
+62,2024,Atlanta Dream,Las Vegas Aces,70,71,141,1,0,8,0.395
+63,2024,Connecticut Sun,Minnesota Lynx,66,82,148,16,0,13,0.535
+64,2023,New York Liberty,Las Vegas Aces,82,81,163,1,1,8,0.489
+65,2024,Connecticut Sun,Atlanta Dream,81,85,166,4,0,12,0.405
+66,2023,Las Vegas Aces,Connecticut Sun,75,79,154,4,0,11,0.547
+67,2023,New York Liberty,Connecticut Sun,86,85,171,1,1,20,0.532
+68,2023,Atlanta Dream,Dallas Wings,83,86,169,3,0,14,0.432
+69,2023,Dallas Wings,Minnesota Lynx,92,72,164,20,1,13,0.516
+70,2024,Connecticut Sun,Dallas Wings,69,73,142,4,0,14,0.523
+71,2023,Dallas Wings,New York Liberty,83,84,167,1,0,12,0.501
+72,2023,Atlanta Dream,Dallas Wings,71,82,153,11,0,15,0.474
+73,2024,Las Vegas Aces,Connecticut Sun,82,90,172,8,0,8,0.46
+74,2023,Atlanta Dream,New York Liberty,61,72,133,11,0,12,0.478
+75,2023,Las Vegas Aces,Dallas Wings,68,89,157,21,0,10,0.531
+76,2024,Connecticut Sun,Atlanta Dream,79,82,161,3,0,10,0.49
+77,2024,Connecticut Sun,Atlanta Dream,83,74,157,9,1,20,0.392
+78,2023,New York Liberty,Las Vegas Aces,100,69,169,31,1,13,0.49
+79,2024,New York Liberty,Connecticut Sun,82,86,168,4,0,9,0.47
+80,2023,Minnesota Lynx,New York Liberty,75,73,148,2,1,13,0.374
+81,2023,Atlanta Dream,Connecticut Sun,79,71,150,8,1,16,0.368
+82,2023,New York Liberty,Dallas Wings,88,73,161,15,1,10,0.387
+83,2024,Las Vegas Aces,Minnesota Lynx,95,76,171,19,1,18,0.4
+84,2023,Dallas Wings,New York Liberty,94,58,152,36,1,16,0.497
+85,2024,Minnesota Lynx,Atlanta Dream,76,69,145,7,1,16,0.528
+86,2024,Connecticut Sun,Minnesota Lynx,79,95,174,16,0,13,0.467
+87,2024,Minnesota Lynx,Atlanta Dream,87,75,162,12,1,9,0.399
+88,2024,Dallas Wings,Atlanta Dream,79,76,155,3,1,13,0.399
+89,2024,Las Vegas Aces,Minnesota Lynx,82,71,153,11,1,12,0.546
+90,2024,Las Vegas Aces,Minnesota Lynx,96,77,173,19,1,16,0.494
+91,2024,Dallas Wings,Minnesota Lynx,74,83,157,9,0,8,0.456
+92,2023,Connecticut Sun,Atlanta Dream,88,78,166,10,1,18,0.469
+93,2023,Connecticut Sun,Las Vegas Aces,90,73,163,17,1,12,0.351
+94,2023,Dallas Wings,Atlanta Dream,80,79,159,1,1,21,0.499
+95,2023,Atlanta Dream,Las Vegas Aces,77,68,145,9,1,15,0.494
+96,2023,New York Liberty,Las Vegas Aces,88,83,171,5,1,12,0.387
+97,2023,Las Vegas Aces,Minnesota Lynx,88,75,163,13,1,9,0.513
+98,2023,Minnesota Lynx,Dallas Wings,82,91,173,9,0,8,0.53
+99,2024,Atlanta Dream,Las Vegas Aces,70,87,157,17,0,11,0.509
+100,2023,Connecticut Sun,Atlanta Dream,88,86,174,2,1,14,0.379
+101,2023,Atlanta Dream,Connecticut Sun,78,80,158,2,0,11,0.441
+102,2024,New York Liberty,Connecticut Sun,88,70,158,18,1,18,0.478
+103,2024,Atlanta Dream,Las Vegas Aces,91,80,171,11,1,17,0.419
+104,2024,Las Vegas Aces,Dallas Wings,79,74,153,5,1,19,0.469
+105,2023,Connecticut Sun,New York Liberty,77,88,165,11,0,13,0.365
+106,2024,Dallas Wings,Minnesota Lynx,79,74,153,5,1,21,0.387
+107,2023,Dallas Wings,Minnesota Lynx,86,67,153,19,1,16,0.499
+108,2023,Connecticut Sun,Atlanta Dream,73,64,137,9,1,17,0.534
+109,2024,Dallas Wings,Las Vegas Aces,69,75,144,6,0,18,0.378
+110,2023,Connecticut Sun,Minnesota Lynx,90,72,162,18,1,13,0.394
+111,2023,Atlanta Dream,Dallas Wings,75,76,151,1,0,15,0.45
+112,2024,Dallas Wings,Atlanta Dream,83,76,159,7,1,21,0.388
+113,2024,Las Vegas Aces,Dallas Wings,90,69,159,21,1,9,0.457
+114,2023,Connecticut Sun,Atlanta Dream,79,75,154,4,1,14,0.539
+115,2024,Las Vegas Aces,Dallas Wings,79,77,156,2,1,9,0.523
+116,2024,Minnesota Lynx,New York Liberty,82,66,148,16,1,13,0.418
+117,2024,Dallas Wings,New York Liberty,79,76,155,3,1,15,0.494
+118,2024,Minnesota Lynx,New York Liberty,76,70,146,6,1,9,0.353
+119,2024,New York Liberty,Dallas Wings,68,92,160,24,0,8,0.513
+120,2024,Las Vegas Aces,Atlanta Dream,79,77,156,2,1,12,0.419
+121,2024,Connecticut Sun,Dallas Wings,79,80,159,1,0,15,0.547
+122,2023,Dallas Wings,Minnesota Lynx,88,86,174,2,1,14,0.394
+123,2023,Las Vegas Aces,Minnesota Lynx,84,82,166,2,1,18,0.515
+124,2024,Connecticut Sun,Atlanta Dream,80,72,152,8,1,17,0.494
+125,2023,Dallas Wings,Connecticut Sun,94,90,184,4,1,12,0.385
+126,2024,Connecticut Sun,Dallas Wings,78,89,167,11,0,19,0.542
+127,2023,Dallas Wings,New York Liberty,88,77,165,11,1,14,0.472
+128,2023,Las Vegas Aces,Minnesota Lynx,82,79,161,3,1,17,0.356
+129,2024,New York Liberty,Las Vegas Aces,102,77,179,25,1,16,0.504
+130,2024,New York Liberty,Connecticut Sun,97,77,174,20,1,16,0.399
+131,2023,Dallas Wings,Minnesota Lynx,89,73,162,16,1,20,0.508
+132,2023,Minnesota Lynx,Dallas Wings,85,82,167,3,1,8,0.482
+133,2023,Connecticut Sun,Dallas Wings,85,79,164,6,1,17,0.464
+134,2024,Atlanta Dream,Dallas Wings,81,83,164,2,0,11,0.519
+135,2024,Dallas Wings,Las Vegas Aces,71,89,160,18,0,19,0.446
+136,2024,Dallas Wings,Las Vegas Aces,93,62,155,31,1,8,0.458
+137,2024,Connecticut Sun,Dallas Wings,84,85,169,1,0,9,0.355
+138,2024,Dallas Wings,Las Vegas Aces,78,68,146,10,1,10,0.364
+139,2023,Connecticut Sun,Minnesota Lynx,77,58,135,19,1,15,0.404
+140,2024,Dallas Wings,Connecticut Sun,94,73,167,21,1,8,0.372
+141,2023,Las Vegas Aces,Connecticut Sun,69,83,152,14,0,21,0.359
+142,2024,Minnesota Lynx,New York Liberty,76,84,160,8,0,13,0.546
+143,2023,Minnesota Lynx,Dallas Wings,91,90,181,1,1,21,0.396
+144,2023,Dallas Wings,Connecticut Sun,86,87,173,1,0,8,0.454
+145,2024,Minnesota Lynx,Connecticut Sun,93,73,166,20,1,8,0.381
+146,2024,New York Liberty,Atlanta Dream,80,87,167,7,0,10,0.405
+147,2024,Dallas Wings,New York Liberty,84,80,164,4,1,16,0.46
+148,2024,Las Vegas Aces,Minnesota Lynx,89,70,159,19,1,9,0.366
+149,2024,New York Liberty,Connecticut Sun,81,87,168,6,0,21,0.468
+150,2024,Las Vegas Aces,Minnesota Lynx,68,81,149,13,0,15,0.509
+151,2023,Minnesota Lynx,New York Liberty,88,82,170,6,1,12,0.486
+152,2023,New York Liberty,Minnesota Lynx,81,82,163,1,0,14,0.351
+153,2024,Dallas Wings,Las Vegas Aces,75,84,159,9,0,20,0.473
+154,2023,Dallas Wings,New York Liberty,87,95,182,8,0,13,0.407
+155,2023,Connecticut Sun,Minnesota Lynx,72,74,146,2,0,20,0.508
+156,2024,Las Vegas Aces,Minnesota Lynx,79,79,158,0,0,13,0.419
+157,2023,Las Vegas Aces,Minnesota Lynx,77,81,158,4,0,19,0.355
+158,2023,Dallas Wings,Minnesota Lynx,77,83,160,6,0,17,0.382
+159,2023,Atlanta Dream,Connecticut Sun,72,76,148,4,0,20,0.489
+160,2023,Las Vegas Aces,Atlanta Dream,71,84,155,13,0,21,0.38
+161,2023,Atlanta Dream,New York Liberty,79,90,169,11,0,8,0.414
+162,2024,Dallas Wings,Minnesota Lynx,85,83,168,2,1,19,0.445
+163,2024,New York Liberty,Connecticut Sun,80,68,148,12,1,11,0.354
+164,2024,Connecticut Sun,Atlanta Dream,80,67,147,13,1,21,0.47
+165,2024,Connecticut Sun,New York Liberty,77,74,151,3,1,13,0.415
+166,2023,Atlanta Dream,Minnesota Lynx,78,58,136,20,1,13,0.408
+167,2024,Connecticut Sun,Dallas Wings,81,73,154,8,1,16,0.398
+168,2023,Connecticut Sun,New York Liberty,82,71,153,11,1,20,0.367
+169,2024,Connecticut Sun,Las Vegas Aces,83,69,152,14,1,17,0.51
+170,2024,Dallas Wings,Minnesota Lynx,93,85,178,8,1,16,0.537
+171,2023,Atlanta Dream,Connecticut Sun,77,86,163,9,0,14,0.482
+172,2024,Connecticut Sun,Las Vegas Aces,85,95,180,10,0,21,0.366
+173,2023,New York Liberty,Minnesota Lynx,79,81,160,2,0,21,0.417
+174,2024,Las Vegas Aces,New York Liberty,95,81,176,14,1,12,0.549
+175,2023,Dallas Wings,Atlanta Dream,77,79,156,2,0,8,0.518
+176,2024,Dallas Wings,Atlanta Dream,85,86,171,1,0,19,0.504
+177,2024,Atlanta Dream,Minnesota Lynx,78,78,156,0,0,11,0.525
+178,2024,Las Vegas Aces,Minnesota Lynx,71,65,136,6,1,15,0.517
+179,2024,Minnesota Lynx,Atlanta Dream,70,89,159,19,0,14,0.433
+180,2024,Dallas Wings,Connecticut Sun,80,86,166,6,0,14,0.422
+181,2023,Atlanta Dream,Dallas Wings,90,75,165,15,1,8,0.505
+182,2024,New York Liberty,Las Vegas Aces,82,67,149,15,1,19,0.516
+183,2024,Atlanta Dream,New York Liberty,75,82,157,7,0,19,0.357
+184,2024,New York Liberty,Connecticut Sun,85,81,166,4,1,13,0.391
+185,2024,Las Vegas Aces,Connecticut Sun,79,74,153,5,1,20,0.478
+186,2024,New York Liberty,Dallas Wings,83,70,153,13,1,17,0.429
+187,2023,Las Vegas Aces,Dallas Wings,69,82,151,13,0,9,0.419
+188,2023,Minnesota Lynx,Las Vegas Aces,76,82,158,6,0,8,0.496
+189,2024,Dallas Wings,Las Vegas Aces,88,81,169,7,1,18,0.487
+190,2023,Dallas Wings,Connecticut Sun,84,82,166,2,1,15,0.509
+191,2023,New York Liberty,Atlanta Dream,73,91,164,18,0,16,0.371
+192,2024,Connecticut Sun,Las Vegas Aces,81,80,161,1,1,20,0.506
+193,2023,Dallas Wings,Atlanta Dream,89,76,165,13,1,16,0.413
+194,2023,Dallas Wings,Atlanta Dream,71,87,158,16,0,19,0.472
+195,2023,New York Liberty,Atlanta Dream,90,95,185,5,0,19,0.353
+196,2023,Las Vegas Aces,Minnesota Lynx,76,96,172,20,0,12,0.523
+197,2024,Connecticut Sun,Atlanta Dream,68,79,147,11,0,18,0.503
+198,2023,Minnesota Lynx,Las Vegas Aces,79,81,160,2,0,10,0.362
+199,2023,Las Vegas Aces,Dallas Wings,85,69,154,16,1,11,0.484
+200,2023,Las Vegas Aces,Atlanta Dream,76,90,166,14,0,11,0.515
+201,2023,Las Vegas Aces,New York Liberty,82,67,149,15,1,15,0.509
+202,2023,Connecticut Sun,Las Vegas Aces,78,87,165,9,0,17,0.372
+203,2024,Connecticut Sun,Dallas Wings,85,67,152,18,1,16,0.518
+204,2024,Dallas Wings,Minnesota Lynx,88,73,161,15,1,14,0.484
+205,2023,Minnesota Lynx,Las Vegas Aces,72,75,147,3,0,10,0.524
+206,2023,Dallas Wings,Connecticut Sun,73,72,145,1,1,18,0.396
+207,2023,Connecticut Sun,New York Liberty,78,72,150,6,1,12,0.485
+208,2024,Atlanta Dream,Dallas Wings,85,87,172,2,0,17,0.531
+209,2023,New York Liberty,Connecticut Sun,68,90,158,22,0,18,0.419
+210,2023,Atlanta Dream,Connecticut Sun,77,83,160,6,0,15,0.526
+211,2023,Minnesota Lynx,Dallas Wings,91,68,159,23,1,19,0.482
+212,2024,Atlanta Dream,Dallas Wings,88,63,151,25,1,11,0.542
+213,2024,Atlanta Dream,Dallas Wings,91,75,166,16,1,8,0.41
+214,2024,Minnesota Lynx,Las Vegas Aces,75,84,159,9,0,12,0.369
+215,2024,Las Vegas Aces,Minnesota Lynx,83,76,159,7,1,11,0.492
+216,2024,Minnesota Lynx,New York Liberty,72,65,137,7,1,18,0.398
+217,2023,Dallas Wings,Atlanta Dream,85,73,158,12,1,13,0.463
+218,2023,Minnesota Lynx,Las Vegas Aces,82,77,159,5,1,21,0.526
+219,2023,Las Vegas Aces,New York Liberty,77,85,162,8,0,9,0.381
+220,2023,Las Vegas Aces,Atlanta Dream,82,83,165,1,0,13,0.413
+221,2023,Minnesota Lynx,Connecticut Sun,82,67,149,15,1,13,0.379
+222,2023,Connecticut Sun,Atlanta Dream,69,78,147,9,0,19,0.505
+223,2024,Las Vegas Aces,Atlanta Dream,74,76,150,2,0,20,0.354
+224,2023,Atlanta Dream,Las Vegas Aces,76,77,153,1,0,9,0.362
+225,2023,New York Liberty,Dallas Wings,79,72,151,7,1,14,0.488
+226,2024,Minnesota Lynx,New York Liberty,85,87,172,2,0,20,0.475
+227,2023,Atlanta Dream,Minnesota Lynx,95,69,164,26,1,14,0.455
+228,2023,Connecticut Sun,Dallas Wings,81,76,157,5,1,12,0.354
+229,2023,Las Vegas Aces,Dallas Wings,70,79,149,9,0,17,0.398
+230,2023,Dallas Wings,Connecticut Sun,81,74,155,7,1,19,0.479
+231,2024,New York Liberty,Las Vegas Aces,72,77,149,5,0,19,0.48
+232,2023,Atlanta Dream,New York Liberty,85,77,162,8,1,16,0.37
+233,2024,Dallas Wings,Connecticut Sun,80,74,154,6,1,17,0.401
+234,2023,Las Vegas Aces,New York Liberty,74,60,134,14,1,8,0.363
+235,2023,New York Liberty,Atlanta Dream,80,78,158,2,1,14,0.493
+236,2024,Las Vegas Aces,New York Liberty,82,73,155,9,1,17,0.442
+237,2023,New York Liberty,Las Vegas Aces,73,82,155,9,0,17,0.37
+238,2024,Las Vegas Aces,Dallas Wings,89,78,167,11,1,15,0.475
+239,2023,Dallas Wings,Minnesota Lynx,92,82,174,10,1,16,0.456
+240,2023,Connecticut Sun,Dallas Wings,93,92,185,1,1,19,0.381
+241,2024,Connecticut Sun,Minnesota Lynx,80,71,151,9,1,19,0.428
+242,2024,Connecticut Sun,Minnesota Lynx,83,76,159,7,1,12,0.407
+243,2023,New York Liberty,Connecticut Sun,88,71,159,17,1,21,0.518
+244,2024,Las Vegas Aces,New York Liberty,84,78,162,6,1,19,0.359
+245,2024,Minnesota Lynx,Connecticut Sun,72,77,149,5,0,20,0.433
+246,2023,New York Liberty,Dallas Wings,83,71,154,12,1,12,0.382
+247,2024,Connecticut Sun,Minnesota Lynx,80,71,151,9,1,9,0.391
+248,2024,Connecticut Sun,Las Vegas Aces,94,85,179,9,1,20,0.458
+249,2024,Las Vegas Aces,Connecticut Sun,88,84,172,4,1,18,0.501
+250,2024,Dallas Wings,Minnesota Lynx,94,67,161,27,1,15,0.393
+251,2023,Connecticut Sun,Dallas Wings,69,88,157,19,0,20,0.369
+252,2024,Las Vegas Aces,Atlanta Dream,80,75,155,5,1,11,0.361
+253,2024,Las Vegas Aces,Minnesota Lynx,81,88,169,7,0,10,0.362
+254,2023,Las Vegas Aces,Connecticut Sun,86,74,160,12,1,20,0.379
+255,2024,Minnesota Lynx,Dallas Wings,88,85,173,3,1,20,0.385
+256,2024,New York Liberty,Las Vegas Aces,88,85,173,3,1,12,0.387
+257,2024,Dallas Wings,Las Vegas Aces,87,91,178,4,0,20,0.49
+258,2023,New York Liberty,Dallas Wings,78,65,143,13,1,12,0.518
+259,2024,Connecticut Sun,New York Liberty,83,80,163,3,1,11,0.36
+260,2024,Minnesota Lynx,Atlanta Dream,77,81,158,4,0,19,0.377
+261,2024,Connecticut Sun,New York Liberty,89,72,161,17,1,13,0.436
+262,2023,Dallas Wings,Connecticut Sun,90,94,184,4,0,11,0.413
+263,2024,Las Vegas Aces,Minnesota Lynx,91,74,165,17,1,21,0.496
+264,2023,Dallas Wings,Connecticut Sun,75,82,157,7,0,10,0.412
+265,2024,New York Liberty,Connecticut Sun,75,76,151,1,0,14,0.459
+266,2023,Connecticut Sun,Las Vegas Aces,83,75,158,8,1,9,0.366
+267,2023,Connecticut Sun,Dallas Wings,85,70,155,15,1,9,0.37
+268,2024,Las Vegas Aces,Dallas Wings,82,72,154,10,1,18,0.442
+269,2024,New York Liberty,Minnesota Lynx,78,70,148,8,1,11,0.454
+270,2024,Connecticut Sun,Las Vegas Aces,82,83,165,1,0,17,0.462
+271,2024,Connecticut Sun,Minnesota Lynx,82,85,167,3,0,10,0.371
+272,2024,Atlanta Dream,Minnesota Lynx,82,66,148,16,1,19,0.509
+273,2024,New York Liberty,Atlanta Dream,88,76,164,12,1,9,0.382
+274,2024,Las Vegas Aces,Minnesota Lynx,79,74,153,5,1,15,0.529
+275,2023,Atlanta Dream,Minnesota Lynx,84,73,157,11,1,8,0.434
+276,2023,Connecticut Sun,Dallas Wings,72,75,147,3,0,12,0.462
+277,2023,Minnesota Lynx,Connecticut Sun,83,75,158,8,1,19,0.522
+278,2023,Las Vegas Aces,Atlanta Dream,79,62,141,17,1,19,0.442
+279,2023,Las Vegas Aces,Dallas Wings,74,73,147,1,1,19,0.515
+280,2024,Dallas Wings,New York Liberty,83,81,164,2,1,17,0.473
+281,2024,Dallas Wings,New York Liberty,82,79,161,3,1,20,0.485
+282,2023,Atlanta Dream,Las Vegas Aces,85,69,154,16,1,15,0.365
+283,2023,Minnesota Lynx,Atlanta Dream,73,72,145,1,1,16,0.411
+284,2024,Minnesota Lynx,Connecticut Sun,84,83,167,1,1,18,0.35
+285,2024,Las Vegas Aces,Minnesota Lynx,77,67,144,10,1,10,0.433
+286,2024,New York Liberty,Minnesota Lynx,78,77,155,1,1,14,0.375
+287,2024,Dallas Wings,Atlanta Dream,87,82,169,5,1,20,0.543
+288,2024,New York Liberty,Atlanta Dream,87,74,161,13,1,15,0.491
+289,2024,Connecticut Sun,New York Liberty,82,73,155,9,1,16,0.515
+290,2023,Dallas Wings,New York Liberty,89,91,180,2,0,15,0.387
+291,2023,Atlanta Dream,Connecticut Sun,82,87,169,5,0,11,0.394
+292,2023,New York Liberty,Connecticut Sun,84,83,167,1,1,9,0.526
+293,2023,Atlanta Dream,New York Liberty,76,63,139,13,1,16,0.418
+294,2023,Atlanta Dream,Connecticut Sun,93,75,168,18,1,11,0.485
+295,2024,Las Vegas Aces,Connecticut Sun,99,76,175,23,1,15,0.47
+296,2023,Minnesota Lynx,New York Liberty,81,76,157,5,1,20,0.444
+297,2023,Las Vegas Aces,Atlanta Dream,61,65,126,4,0,8,0.475
+298,2024,Minnesota Lynx,New York Liberty,82,66,148,16,1,8,0.352
+299,2024,Minnesota Lynx,New York Liberty,62,66,128,4,0,21,0.429
+300,2023,New York Liberty,Connecticut Sun,74,80,154,6,0,18,0.451

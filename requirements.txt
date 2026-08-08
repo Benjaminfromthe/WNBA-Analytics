@@ -1,0 +1,10 @@
+pandas
+requests
+sqlalchemy
+psycopg2-binary
+scikit-learn
+matplotlib
+seaborn
+python-dotenv
+google-generativeai
+pytest
