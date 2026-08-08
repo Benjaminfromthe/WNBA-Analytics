@@ -3,7 +3,7 @@ import threading
 import pandas as pd
 import streamlit as st
 from sqlalchemy import create_engine
-import google.generativeai as genai
+from groq import Groq  # Using Groq SDK
 
 # ==========================================
 # 1. BACKGROUND SCHEDULER INITIALIZATION
@@ -74,19 +74,18 @@ else:
 st.divider()
 
 # ==========================================
-# 4. INTERACTIVE AI ASSISTANT SECTION
+# 4. INTERACTIVE GROQ AI ASSISTANT SECTION
 # ==========================================
 st.subheader("💬 Ask WNBA AI Assistant")
 
-api_key = os.getenv("GEMINI_API_KEY")
+groq_api_key = os.getenv("GROQ_API_KEY")
 
-if not api_key:
-    st.error("Missing GEMINI_API_KEY environment variable. Please check Railway settings.")
+if not groq_api_key:
+    st.error("Missing GROQ_API_KEY environment variable. Please check Railway settings.")
 else:
     try:
-        # Configure Gemini API
-        genai.configure(api_key=api_key)
-        model = genai.GenerativeModel("gemini-1.5-flash")
+        # Initialize Groq Client
+        client = Groq(api_key=groq_api_key)
 
         # Maintain chat session state across user inputs
         if "messages" not in st.session_state:
@@ -104,15 +103,24 @@ else:
             with st.chat_message("user"):
                 st.markdown(prompt)
 
-            # Query Gemini model
+            # Query Groq model (Llama 3)
             try:
-                response = model.generate_content(
-                    f"You are a professional WNBA sports analytics expert. "
-                    f"Answer this prompt concisely and clearly: {prompt}"
+                chat_completion = client.chat.completions.create(
+                    messages=[
+                        {
+                            "role": "system",
+                            "content": "You are a professional WNBA sports analytics expert. Answer queries concisely and clearly."
+                        },
+                        {
+                            "role": "user",
+                            "content": prompt,
+                        }
+                    ],
+                    model="llama-3.3-70b-versatile",
                 )
-                reply = response.text
+                reply = chat_completion.choices[0].message.content
             except Exception as err:
-                reply = f"Error generating AI response: {err}"
+                reply = f"Error generating Groq AI response: {err}"
 
             # Display AI message
             with st.chat_message("assistant"):
@@ -120,4 +128,4 @@ else:
             st.session_state.messages.append({"role": "assistant", "content": reply})
 
     except Exception as setup_err:
-        st.error(f"Failed to initialize Gemini AI Client: {setup_err}")
+        st.error(f"Failed to initialize Groq AI Client: {setup_err}")
